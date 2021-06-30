@@ -42,11 +42,11 @@ class playSound {
         this.audioData.play();
     }
 }
-var bomb = new playSound("../sound/爆発2.mp3");
-var lunch = new playSound("../sound/ビーム砲1.mp3");
-var ou = new playSound("../sound/男衆「オウ！」.mp3");
-var end = new playSound("../sound/運命2.mp3");
-var dondon = new playSound("../sound/ドンドンパフパフ.mp3");
+var bomb = new playSound("https://raw.githubusercontent.com/penguinspizza/breakout/main/sound/爆発2.mp3");
+var lunch = new playSound("https://raw.githubusercontent.com/penguinspizza/breakout/main/sound/ビーム砲1.mp3");
+var ou = new playSound("https://raw.githubusercontent.com/penguinspizza/breakout/main/sound/男衆「オウ！」.mp3");
+var end = new playSound("https://raw.githubusercontent.com/penguinspizza/breakout/main/sound/運命2.mp3");
+var dondon = new playSound("https://raw.githubusercontent.com/penguinspizza/breakout/main/sound/ドンドンパフパフ.mp3");
 
 function getRandomInt(min, max) {
     min = Math.ceil(min);
